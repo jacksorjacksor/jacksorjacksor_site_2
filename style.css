@@ -1,0 +1,41 @@
+/* Font combos: https://inkbotdesign.com/font-combinations/ */
+/* 8 – Century Gothic & PT Serif */
+/* HEADINGS: */
+/* Coco Gothic */
+@import url('http://fonts.cdnfonts.com/css/coco-gothic');
+/* 
+font-family: 'Coco Gothic', sans-serif;
+font-family: 'Coco Gothic Alternate', sans-serif; 
+*/
+/* BODY: */
+/* PT Serif */
+@import url('http://fonts.cdnfonts.com/css/pt-serif');
+/* font-family: 'PT Serif', sans-serif; */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: whitesmoke;
+}
+
+* {
+	text-align: center;
+}
+/* FONTS */
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Coco Gothic', sans-serif;
+}
+
+*:not(h1, h2, h3, h4) {
+	font-family: 'PT Serif', sans-serif;
+}
+
+/* HEADERS */
+header img {
+	max-height: 40vh;
+}
