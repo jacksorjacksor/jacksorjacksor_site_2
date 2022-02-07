@@ -42,7 +42,7 @@ header {
 }
 
 img {
-	height: 315px;
+	max-width: 90%;
 }
 
 header img {
@@ -83,6 +83,7 @@ h4 {
 	box-shadow: 0 0;
 	transition: box-shadow 0.4s;
 	padding: 1rem;
+	max-width: 100vw;
 }
 
 .content-block:hover {
@@ -97,4 +98,16 @@ h4 {
 i {
 	font-size: 2rem;
 	padding: 1rem;
+}
+
+iframe {
+	width: clamp(90%, 560px, 560px);
+	height: 315px;
+}
+
+@media screen and (max-width: 600px) {
+	iframe {
+		width: 90%;
+		height: unset;
+	}
 }
