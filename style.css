@@ -49,6 +49,10 @@ header img {
 	max-height: 40vh;
 }
 
+.epk {
+	margin: 1rem;
+}
+
 /* PORTFOLIO */
 
 a {
@@ -61,32 +65,40 @@ a:hover {
 	color: darkred;
 }
 
-.cv-download-button {
-	font-weight: bold;
-	padding: 0.4rem;
-	border: 1px solid black;
-	border-radius: 0.4rem;
+.portfolio h3,
+.intro h3,
+.contact h3 {
+	font-size: 2rem;
 }
 
-h4 {
-	font-size: 2rem;
-	margin-bottom: 1rem;
+.portfolio h4 {
+	font-size: 1.5rem;
 }
 
 .portfolio h5 {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	margin: 0.8rem;
 }
 
 .content-block {
 	margin-bottom: 2rem;
-	box-shadow: 0 0;
-	transition: box-shadow 0.4s;
 	padding: 1rem;
 	max-width: 100vw;
+	box-shadow: 0 0;
+	transition: box-shadow 0.4s;
 }
 
-.content-block:hover {
+.cv-download-button {
+	font-weight: bold;
+	padding: 0.4rem;
+	border: 1px solid black;
+	border-radius: 0.4rem;
+	box-shadow: 0 0;
+	transition: box-shadow 0.4s;
+}
+
+.content-block:hover,
+.cv-download-button:hover {
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
 		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
