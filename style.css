@@ -38,7 +38,23 @@ h4 {
 /* HEADERS */
 
 header {
-	/* background: rgba(139, 0, 0, 0.8); */
+}
+
+header h1 {
+	color: darkred;
+	font-weight: 200;
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+header h2 {
+	color: darkred;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+header i {
+	font-size: 1.4rem;
 }
 
 img {
@@ -50,7 +66,7 @@ header img {
 }
 
 .epk {
-	margin: 1rem;
+	margin: 2rem;
 }
 
 /* PORTFOLIO */
@@ -71,8 +87,13 @@ a:hover {
 	font-size: 2rem;
 }
 
-.portfolio h4 {
+.portfolio h4,
+.intro h4 {
 	font-size: 1.5rem;
+}
+
+.portfolio h4 {
+	margin-bottom: 0;
 }
 
 .portfolio h5 {
